@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.main-header{
+    
+    
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+     url(Aconquija-Las-Estancias-Catamarca-Paisajes.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.main-nav {
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    position: relative;
+   
+}
+
+ul{
+
+   
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+    position: relative;
+}
+ul li a{
+    display: inline-block;
+    padding: 20px 40px;
+    color: white;
+
+
+}
+
+ul li a:hover{
+    background-color: rgb(8, 156, 107);
+    color: rgba(0,0,0,);
+}
+
+ul li:hover .sub-ul {
+    display: block;
+}
+
+.sub-ul{
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    display: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+
+.conten-header {
+
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.conten-header h1 {
+    font-size: 3rem;
+
+
+}
+
+.conten-header h2 {
+
+    font-size: 1.8rem;
+
+}
+
+.a{
+
+    font-size: 5rem;
+    color: rgb(107, 211, 107);
+    text-shadow: 3px 3px 2px black;
+
+}
+
+.resto{
+
+    font-size: 5rem;
+    color: rgba(99, 135, 235, 0.925);
+    text-shadow: 3px 3px 2px black;
+
+
+}
+ 
+/* CONTENEDOR DE BODY*/
+
+.contenedor{
+
+    margin: 5px 10px;
+   
+}
+/*SECCION NOSOTROS*/
+.nosotros{
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+   
+}
+.nosotros h3{
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px;
+}
+ .parrafo-nosotros img{
+    float: left;
+    margin-right: 15px;
+}
+/*COMO LLEGAR*/
+.como-llegar{
+   
+
+   
+}
